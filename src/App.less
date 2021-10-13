@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+body {
+  font-family: 'Questrial', sans-serif;
+  color: white;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  overflow: hidden;
+}
+
+/* title styling */
+.title-div {
+  position: absolute;
+  top: 48px;
+  left: 36px;
+  z-index: 100;
+  line-height: 0;
+}
+
+.title {
+  font-size: 28px;
+}
+
+.title-1 {
+  font-weight: 100 !important;
+}
+
+.title-2 {
+  font-weight: 100 !important;
+  font-size: 24px !important;
+}
+
+.author {
+  font-size: 14px;
+}
+
+/* bottom div styling */
+.bot-div {
+  position: absolute;
+  bottom: 36px;
+  left: 36px;
+  z-index: 100;
+}
+
+/* chart styling */
+.modebar{
+  display: none !important;
+}
+
+/* ant override */
+.ant-input {
+  backdrop-filter: blur(2px);
+}
+
+.ant-input-group-addon {
+  backdrop-filter: blur(2px);
+}
+
+.ant-btn {
+  backdrop-filter: blur(2px);
+}
+
+.ant-message-notice-content {
+  background: none;
+  backdrop-filter: blur(2px);
+}
+
+.ant-drawer .ant-drawer-content {
+  height: calc(100% - 32px) !important;
+  border-radius: 4px;
+  top: 16px;
+  right: 16px;
+  background: none;
+  backdrop-filter: blur(2px);
+}
+
+.ant-tag {
+  background: none;
+  backdrop-filter: blur(2px);
+}
